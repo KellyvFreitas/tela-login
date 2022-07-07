@@ -1,0 +1,53 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-image: url("https://images8.alphacoders.com/921/921329.jpg");
+  background-size: cover;
+}
+
+.icon-login {
+  margin: 1.5rem 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-side {
+  height: 60vh;
+  background: rgba(0, 0, 0, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid rgba(0, 0, 0, 0.61);
+  width: 30%;
+  border-radius: 2rem;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.input-group input {
+  height: 25px;
+  border-radius: 6px;
+  border: none;
+}
+
+button[type="submit"] {
+  padding: 0.4rem 0.5rem;
+  border-radius: 6px;
+  border: 0;
+  background: white;
+  color: hsl(167, 69%, 24%);
+  font-weight: bold;
+  cursor: pointer;
+  height: 30px;
+  width: 20%;
+}
